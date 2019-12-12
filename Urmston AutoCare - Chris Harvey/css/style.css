@@ -38,7 +38,7 @@ hr {
 
 .l-heading {
   font-size: 4em;
-  padding-top: 400px;
+  padding-top: 250px;
   margin-bottom: 50px;
   line-height: 1.7;
 }
@@ -373,14 +373,14 @@ nav {
     float: left;
     margin-left: 30px;
     margin-bottom: 30px;
-   
+    box-shadow: 0px 4px 4px 0px #888;
   }
   
   .card:hover {
     width: 23%;
     float: left;
     margin-left: 30px;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 15px 0px #333;
     
    }
   
@@ -395,9 +395,8 @@ nav {
     line-height: 3;
 }
   
-
-  .banner-img {
-    height: 500px;
+.banner-img {
+    height: 50vh;
     width: 100%;
     background: url(../img/banner1.jpg)  no-repeat center center/cover;
     display: block;
@@ -409,16 +408,17 @@ nav {
     padding-top: 50px;
     color: #fff;
     background: rgba(0, 0, 0, 0.4);
-    height: 500px;
+    height: 50vh;
 }
 
 
 /*Testimonials*/
 #testimonials .test-cards {
-  height: 180px;
+  height: 220px;
   width: 90%;
   border: 1px solid;
   margin: 20px;
+  padding: 10px;
   margin-left: 5%;
   background-color: #f4f4f4;
   box-shadow: 5px 0px 15px #888888;
@@ -428,16 +428,12 @@ nav {
 .test-card-img {
   height: 70px;
   width: 70px;
-  
   border-radius: 50%;
-  margin: -15px -15px -15px -15px;
+  margin: -20px -20px;
 }
-.test-card-img {
-  height: 80px;
-  width: 80px;
-  
-  border-radius: 50%;
-  margin: -15px -15px -15px -15px;
+
+.test-card-content {
+  padding-top: 30px;
 }
 
 .face{
@@ -447,14 +443,6 @@ nav {
   border: 1px solid
 }
 
-.face:hover {
-  border-radius: 50%;
-  height: 81px;
-  width: 81px;
-  border: 2px solid;
-  transition: 0.2s;
-  transform: rotate(180deg);
-}
 
 .test-card-content {
   text-align: center;
@@ -502,6 +490,7 @@ nav {
  .leadfooter {
    font-size: 15px;
  }
+
  .social {
    margin-left: 28px;
    margin-top: 30px;
@@ -522,7 +511,7 @@ nav {
    border: solid 0.5px;
   }
  
- .links{
+ .links {
    margin-top: 10px;
    padding-bottom: 15px;
    padding-left: 10px;
@@ -552,7 +541,7 @@ nav {
    font-size: 15px;
  }
  
- .contact{
+ .contact {
    margin-top: 48px;
    padding-bottom: 10px;
    padding-left: 10px;
@@ -571,7 +560,7 @@ nav {
    font-size: 20px;
   }
  
- .contact-icons:hover{
+ .contact-icons:hover {
    padding: 20px;
    font-size: 20px;
    color: #1C63b8
@@ -585,22 +574,27 @@ nav {
    border: 1px solid #1C63b8;
  }
 
+ 
+ 
  .gototop {
    height: 50px;
-   width: 50px;
-   border: 1px solid red;
+   width: 100%;
+   background: #474747;
+   text-align: center;
+   padding: 15px;
+   outline: none;
+  }
+
+ .gototop:hover {
+   background: #4d4d4d;
  }
  
- .totop{
-   position: relative;
-   top: -10px;
-   left: 45%;
-   margin-bottom: 20px;
-   text-decoration: none;
-   color: #fff;
+ .gototop a {
+  text-decoration: none;
+  color: #FFF;
  }
 
- .totop:hover{
+ .totop:hover {
    color: #1C63B8;
  }
  
@@ -616,7 +610,7 @@ nav {
 
  /* Internal Pages : About */
  .banner-img1 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/about.jpg)  no-repeat center center/cover;
   margin-top: 0;
@@ -628,7 +622,7 @@ nav {
   padding-top: 180px;
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-  height: 40vh;
+  height: 50vh;
 }
 
 .about-book {
@@ -674,7 +668,7 @@ color: #1c63b8;
   margin-left: 20px;
 }
 
-.input-field::placeholder{
+.input-field::placeholder {
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
@@ -693,7 +687,7 @@ color: #1c63b8;
   margin-top: 20px;
 }
 
-.content{
+.content {
   margin-bottom: 10px;
   margin-left: 50px;
   font-size: 1.2em;
@@ -731,7 +725,7 @@ color: #1c63b8;
 
 /* Mot and Services */
 .banner-img2 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/motsandservices.jpg)  no-repeat center center/cover;
   margin-top: 0;
@@ -762,7 +756,7 @@ color: #1c63b8;
 
 /* Body Shop */
 .banner-img3 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/bodyshop.jpg)  no-repeat center center/cover;
   margin-top: 0;
@@ -776,7 +770,7 @@ color: #1c63b8;
 }
 /* Diagnostics */
 .banner-img4 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/1248.jpg)  no-repeat center center/cover;
   margin-top: 0;
@@ -792,7 +786,7 @@ color: #1c63b8;
 
 /* General Maintenance */
 .banner-img5 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/generalmaintenance.jpg)  no-repeat center center/cover;
   margin-top: 0;
@@ -807,13 +801,13 @@ color: #1c63b8;
 
 /* Contact */
 .banner-img6 {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: url(../img/contact.jpg)  no-repeat center center/cover;
   z-index: -1;
 }
 
-.contact-form{
+.contact-form {
   float: left;
   text-align: center;
   height: 560px;
@@ -824,6 +818,10 @@ color: #1c63b8;
   margin-top: 50px;
   font-size: 1.2em;
   box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
+}
+
+.contact-form h4 {
+  padding: 20px;
 }
 
 fieldset {

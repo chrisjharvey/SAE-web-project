@@ -90,8 +90,8 @@
     margin-left: 16%;
     box-shadow: 5px 10px 8px #888888;
   }
+
   .card-desc {
-    
     height: 60px;
     width: 100%;
     margin-top: 20px;
@@ -112,12 +112,12 @@
     color: #fff;
     line-height: 1;
     font-size: 1em;
+    height: 80vh;
   }
 
-
-/*.banner-img {
-    height: 90vh;
-  }*/
+  .banner-img {
+    height: 80vh;
+  }
 
 .s-heading {
     margin: 70px 10px;
@@ -129,7 +129,9 @@
 }
 /* End of Banner */
 
-
+.gototop a {
+  left: 43%;
+}
   /* Footer */
   #footer {
       height: 100%;
@@ -155,18 +157,17 @@
    }
 
    .social {
-     
      border: solid 1px;;
-      position: relative;
-      left: 5px;
-       text-align: center;
-       margin-left: 5%;
-       padding: 10px;
-       width: 20%;
-       height: 100%;
+     position: relative;
+     left: 5px;
+     text-align: center;
+     margin-left: 5%;
+     padding: 10px;
+     width: 20%;
+     height: 100%;
     }
 
-    .social:hover{
+    .social:hover {
       position: relative;
       left: 5px;
        margin-left: 5%;
@@ -189,7 +190,7 @@
     }
     /* End of Footer */
 
-    /* About Section */
+    /* About Page */
 
     .btn-reg {
       display: block;
@@ -233,7 +234,7 @@
     margin: 10px 0px;
    }
 
-  /* Contact */
+  /* Contact Page */
 
   .contact-form{
     float: left;
@@ -633,11 +634,7 @@
    color: #1C63b8
   }
 
-
- 
-
- 
- .footer-bottom {
+.footer-bottom {
    height: 60px;
    width: 100%;
    background: #000;
@@ -647,10 +644,6 @@
 }
 
 /* About section */
-
-
-
-
 
 @media only screen and (max-width: 1024px) {
 
@@ -707,7 +700,7 @@
    .logo {
      height: 150px;
      width: 255px;
-     margin-top: 10px;
+     margin-top: 0;
      padding-top: 30px;
      padding-bottom: 20px;
      cursor: pointer;
@@ -769,8 +762,6 @@
      font-size: 15px;
    }
    
-   
-
    .contact{
      margin-top: 48px;
      padding-bottom: 10px;
@@ -814,6 +805,7 @@
      text-align: center;
      padding: 24px;
   }
+
   .about-img {
     height: 500px;
     width: 700px;
@@ -853,12 +845,10 @@
 }
 
 .address {
-  
   margin-top: 50px;
   margin-left: 10%;
   margin-bottom: 30px;
   width: 40%;
-  
 }
 
  }
@@ -872,7 +862,7 @@
   margin-left: 5%;
 }
 
-.content{
+.content {
   margin-bottom: 10px;
   margin-left: 50px;
   font-size: 1.2em;
